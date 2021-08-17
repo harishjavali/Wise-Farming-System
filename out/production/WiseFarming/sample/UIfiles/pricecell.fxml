@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="cellanchorpane" prefHeight="117.0" prefWidth="877.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="cropprice" layoutX="331.0" layoutY="40.0" prefHeight="58.0" prefWidth="127.0" text="Label">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="cropname" alignment="CENTER_RIGHT" layoutX="14.0" layoutY="46.0" prefHeight="45.0" prefWidth="202.0" text="Lable">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="cropname1" alignment="CENTER" layoutX="236.0" layoutY="46.0" prefHeight="45.0" prefWidth="26.0" text=":">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="cropprice1" alignment="CENTER_RIGHT" layoutX="262.0" layoutY="40.0" prefHeight="58.0" prefWidth="69.0" text="Rs.">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

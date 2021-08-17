@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="857.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.CropinfnoController">
+   <children>
+      <Label alignment="CENTER" layoutX="417.0" layoutY="14.0" prefHeight="73.0" prefWidth="492.0" text="Crop Inofomation" textFill="#252424">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="gobacktodashboard" fitHeight="51.0" fitWidth="63.0" layoutX="45.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../media/backbutton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="nextpage" fitHeight="51.0" fitWidth="63.0" layoutX="1217.0" layoutY="25.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../media/backbutton.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="43.0" layoutY="97.0" prefHeight="246.0" prefWidth="1235.0" style="-fx-background-color: #fff3e0;">
+         <children>
+            <ImageView fitHeight="169.0" fitWidth="281.0" layoutX="23.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../media/riveimg.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="TOP_LEFT" layoutX="88.0" layoutY="7.0" prefHeight="36.0" prefWidth="123.0" text="RICE:">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" layoutX="304.0" layoutY="47.0" prefHeight="183.0" prefWidth="903.0" text="Rice is predominantly a Kharif or crop. It covers one third of total cultivated area of India. It provides food to more than half of the Indian population.Rice is produced in almost all states. Top three producer states are West Bengal, Punjab and Uttar Pradesh. Other rice growing states include Tamilnadu, Andhra Pradesh, Bihar, Jharkhand, Uttarakhand, Chhattisgarh, Odisha, Uttar Pradesh, Karnataka, Assam and Maharashtra. It is also grown in Haryana, Madhya Pradesh, Kerala, Gujarat and Kashmir Valley." wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="43.0" layoutY="350.0" prefHeight="246.0" prefWidth="1235.0" style="-fx-background-color: #fff3e0;">
+         <children>
+            <ImageView fitHeight="169.0" fitWidth="269.0" layoutX="15.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../media/Wheatimg.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="TOP_LEFT" layoutX="88.0" layoutY="7.0" prefHeight="36.0" prefWidth="123.0" text="WHEAT:">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" layoutX="304.0" layoutY="47.0" prefHeight="183.0" prefWidth="903.0" text=" Wheat is the second most important crop of India after Rice. It’s a Rabi Crop. It is the staple food in north and north western India. It’s a winter crop .Ideal temperature for wheat cultivation is between 10-15°C at the time of sowing and 21-26°C at the time of harvesting. The most suitable soil for cultivation of wheat is well drained fertile loamy soil and clayey soil. Plain areas are most suitable.  Top three states producing Wheat are Uttar Pradesh, Punjab and Haryana." wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="43.0" layoutY="607.0" prefHeight="246.0" prefWidth="1235.0" style="-fx-background-color: #fff3e0;">
+         <children>
+            <ImageView fitHeight="169.0" fitWidth="281.0" layoutX="23.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../media/areca.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="TOP_LEFT" layoutX="62.0" layoutY="7.0" prefHeight="36.0" prefWidth="149.0" text="ARECANUT:">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" layoutX="304.0" layoutY="47.0" prefHeight="183.0" prefWidth="903.0" text="The arecanut palm is the source of common chewing nut, popularly known as betel nut or Supari.In India it is extensively used by large sections of people and is very much linked with religious practices. India is the largest producer of arecanut and at the same time largest consumer also.Major states cultivating this crop are Karnataka (40%), Kerala (25%),Assam .The largest area under the crop is found in gravelly laterite soils of red clay type. It can also be grown on fertile clay loam soils.Sticky clay, sandy,alluvial,brackish and calcareous soils are not suitable for arecanut cultivation." wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

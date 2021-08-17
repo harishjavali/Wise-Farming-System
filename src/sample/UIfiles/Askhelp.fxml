@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="850.0" prefWidth="1300.0" style="-fx-background-color: #9e9e9e;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.AskhelpController">
+   <children>
+      <Label alignment="CENTER" layoutX="450.0" layoutY="57.0" prefHeight="72.0" prefWidth="401.0" text="Ask Help" textFill="#f8f1f1">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="querysubject" focusColor="#fafbfc" layoutX="151.0" layoutY="230.0" prefHeight="73.0" prefWidth="785.0" unFocusColor="#0d0d0d">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextArea fx:id="querydescription" layoutX="151.0" layoutY="425.0" prefHeight="151.0" prefWidth="785.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXTextArea>
+      <Label layoutX="151.0" layoutY="177.0" prefHeight="53.0" prefWidth="103.0" text="Subject:" textFill="#f8f1f1">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="151.0" layoutY="353.0" prefHeight="53.0" prefWidth="283.0" text="Problem Description:" textFill="#f8f1f1">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="submitbutton" buttonType="RAISED" layoutX="151.0" layoutY="634.0" prefHeight="46.0" prefWidth="137.0" style="-fx-background-color: #fff;" text="Submit" textFill="#1b1a1a">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="queryreply" layoutX="147.0" layoutY="737.0" prefHeight="53.0" prefWidth="777.0" text="Your Query has been submitted. We will get back to you shortly ✅" textFill="#f8f1f1" visible="false">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="querybackbutton" fitHeight="58.0" fitWidth="56.0" layoutX="26.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../media/backbutton.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

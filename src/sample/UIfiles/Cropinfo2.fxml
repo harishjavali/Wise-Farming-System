@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="857.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.CropinfoController2">
+   <children>
+      <Label alignment="CENTER" layoutX="417.0" layoutY="14.0" prefHeight="73.0" prefWidth="492.0" text="Crop Inofomation" textFill="#252424">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="gobackcropinfo" fitHeight="52.0" fitWidth="51.0" layoutX="33.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../media/backbutton.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="33.0" layoutY="87.0" prefHeight="246.0" prefWidth="1235.0" style="-fx-background-color: #fff3e0;">
+         <children>
+            <Label alignment="TOP_LEFT" layoutX="88.0" layoutY="7.0" prefHeight="36.0" prefWidth="123.0" text="COTTON:">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" layoutX="304.0" layoutY="47.0" prefHeight="183.0" prefWidth="903.0" text="Cotton is the most important fibre crop and cotton seed is used as a vegetable oil and a part of fodder for milch cattle for better milk production. Cotton is a Kharif Crop and grows in tropical and subtropical areas. Cotton requires modest rainfall and in India, it is one of the predominant rainfed crops. Cotton requires uniformly high temperature (21°C to 30°C). It grows in areas having at least 210 frost free days in a year.Optimum soil for cotton is the Black soils of Deccan and Malwa plateau." wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="204.0" fitWidth="263.0" layoutX="29.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../media/cotton.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="33.0" layoutY="342.0" prefHeight="246.0" prefWidth="1235.0" style="-fx-background-color: #fff3e0;">
+         <children>
+            <Label alignment="TOP_LEFT" layoutX="50.0" layoutY="7.0" prefHeight="36.0" prefWidth="178.0" text="GROUNDNUT:">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" layoutX="304.0" layoutY="47.0" prefHeight="183.0" prefWidth="903.0" text="Groundnut is most important oil seeds of India. Grown as both as kharif and Rabi crop but 90-95% of the total area is devoted to kharif crop. Groundnut thrives best in the tropical climate and requires 20°C to 30°C temperature. 50-75 cm rainfall is favourable for groundnut cultivation.Groundnut is highly susceptible to frost, drought, continuous rain and stagnant water. It needs dry winder at the time of ripening.  Well drained light sandy loams, red, yellow and black soils are well suited for its cultivation." wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="183.0" fitWidth="272.0" layoutX="28.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../media/goundnut.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="33.0" layoutY="597.0" prefHeight="246.0" prefWidth="1235.0" style="-fx-background-color: #fff3e0;">
+         <children>
+            <Label alignment="TOP_LEFT" layoutX="87.0" layoutY="7.0" prefHeight="36.0" prefWidth="141.0" text="TEA:">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" layoutX="304.0" layoutY="47.0" prefHeight="183.0" prefWidth="903.0" text="Tea is an aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the Camellia sinensis, an evergreen shrub (bush) native to East Asia.[3] After water, it is the most widely consumed drink in the world.ndia is the largest producer and consumer of black tea in the world. Tea is grown in 16 states in India. Assam, West Bengal, Tamil Nadu, and Kerala account for about 95 per cent of total tea production." wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="183.0" fitWidth="256.0" layoutX="21.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../media/tea.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="850.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.AboutController">
+   <children>
+      <Label alignment="CENTER" layoutX="386.0" layoutY="30.0" prefHeight="65.0" prefWidth="529.0" text="ABOUT US">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="gobacktodashboard" fitHeight="65.0" fitWidth="76.0" layoutX="37.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../media/backbutton.png" />
+         </image>
+      </ImageView>
+      <Label alignment="TOP_LEFT" layoutX="85.0" layoutY="196.0" prefHeight="87.0" prefWidth="1131.0" text="Welcome to Wise Farming System. Agriculture and Farmers are the backbone of our Indian economy. We are here to help Farmers in a possible way to improve the farming through our app." wrapText="true">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="85.0" layoutY="283.0" prefHeight="119.0" prefWidth="1131.0" text="Wise farming system is a one stop solution for the farmers to get latest information about crops, crop prices and related other information. Day to day market prices will be kept updated to help farners to stay updated with current market prices." wrapText="true">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="85.0" layoutY="415.0" prefHeight="87.0" prefWidth="1131.0" text="Also farmers can post their queries in help section provided in the app. Experts will conatct and provide solution to the farmer queries.  " wrapText="true">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
